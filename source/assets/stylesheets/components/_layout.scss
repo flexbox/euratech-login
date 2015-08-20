@@ -1,0 +1,11 @@
+.layout-homepage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .is-connected {
+    margin: auto;
+    text-align: center;
+  }
+}

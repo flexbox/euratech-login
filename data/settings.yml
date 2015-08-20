@@ -1,0 +1,15 @@
+site:
+  title: euratech-wifi
+  title_separator: •
+  description: 'Bienvenue sur le portail d’accès WIFI Euratechnologies'
+  i18n: fr
+  geo:
+    placename: 'Lille, Nord'
+    position: 50.629250;3.057256
+    region: FR-59
+  url: 'https://github.com/flexbox/euratech-wifi'
+  logo: 'https://raw.githubusercontent.com/flexbox/euratech-wifi/master/source/favicon_base.png'
+  author: David Leuliette
+
+social:
+  twitter: '@euratechnologie'

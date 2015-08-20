@@ -1,0 +1,16 @@
+doctype html
+
+html lang="#{data.settings.site.i18n}"
+  head
+    = partial 'views/commons/meta_tags'
+    = partial 'views/commons/favicon'
+    = stylesheet_link_tag 'application'
+    = yield_content :head
+
+  body class="#{page_classes}"
+    .layout-homepage
+      = partial 'views/commons/header'
+      == yield
+
+    = javascript_include_tag 'application'
+    = yield_content :javascripts

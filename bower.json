@@ -1,0 +1,21 @@
+{
+  "name": "euratech-wifi",
+  "version": "0.0.1",
+  "homepage": "https://github.com/flexbox/euratech-wifi",
+  "authors": [
+    "flexbox <dleuliette@gmail.com>"
+  ],
+  "description": "Middleman starter template with Sass, slim and CoffeeScript. Based on ruby on rails architecture.",
+  "license": "GNU/GPL",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  }
+}
