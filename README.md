@@ -4,9 +4,11 @@ Refactor the login page to the wifi connection based on [codeless template](http
 
 - mobile friendly
 - Accessible with keyboard
-- Delight the eye without destrincting the mind
+- Delight the eye without distracting the mind
 
-![centered login page with flexbox](http://recordit.co/6NkGL0Cwcw.gif)
+Here is the UX onboarding
+
+[![centered login page with flexbox](http://recordit.co/6NkGL0Cwcw.gif)](https://github.com/flexbox/euratech-login)
 
 ## Contributing
 

@@ -7,8 +7,8 @@ site:
     placename: 'Lille, Nord'
     position: 50.629250;3.057256
     region: FR-59
-  url: 'https://github.com/flexbox/euratech-wifi'
-  logo: 'https://raw.githubusercontent.com/flexbox/euratech-wifi/master/source/favicon_base.png'
+  url: 'https://github.com/flexbox/euratech-login'
+  logo: 'https://raw.githubusercontent.com/flexbox/euratech-login/master/source/favicon_base.png'
   author: David Leuliette
 
 social:

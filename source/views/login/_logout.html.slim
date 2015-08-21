@@ -1,7 +1,7 @@
-form action="/" class="content-center"
+form action="index.html" class="content-center"
   .card
 
-    = link_to 'Cliquez ici pour accéder à la page demandée', '#', class: 'link-block'
+    = link_to 'Cliquez ici pour accéder à la page demandée', "#{data.settings.site.url}", class: 'link-block', target: '_blank'
 
     button.button.secondary.expand type="submit" Deconnexion
 
