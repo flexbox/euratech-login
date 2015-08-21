@@ -2,7 +2,6 @@ require 'slim'
 
 activate :autoprefixer, browsers: ['last 2 versions', 'ie 8', 'ie 9']
 activate :livereload
-activate :directory_indexes
 
 set :js_dir,     'assets/javascripts'
 set :css_dir,    'assets/stylesheets'
@@ -56,6 +55,6 @@ configure :build do
     sitemap: data.settings.site.url+'sitemap.xml'
 
   # Use this for github.io gh-pages
-  # activate :relative_assets
-  # set :relative_links, true
+  activate :relative_assets
+  set :relative_links, true
 end
