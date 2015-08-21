@@ -1,0 +1,50 @@
+$font-family-sans-serif:     "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:          Georgia, "Times New Roman", Times, serif;
+
+body {
+  font-family: $font-family-sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif;
+  color: $gray-dark;
+}
+
+.text-center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.link-back {
+  &::before {
+    content: "\2190";
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+    transition: all 0.1s ease 0s;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  &:hover {
+    &::before {
+      transform: translate3d(-20%, 0, 0);
+    }
+  }
+}
+
+.link-block {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+p {
+  margin-top: 0;
+}

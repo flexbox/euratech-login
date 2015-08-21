@@ -1,3 +1,64 @@
-.button {
+@mixin button-size {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: $global-radius;
+}
 
+@mixin button-style {
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  transition: all 150ms ease-in-out;
+
+  &:focus,
+  &.focus {
+    text-decoration: none;
+    box-shadow: 0 0 1px 3px $blue;
+    border-radius: $global-radius;
+    border-color: rgba($white, 0.8) !important;
+  }
+
+  @include hover-focus {
+    text-decoration: none;
+  }
+
+  &:active,
+  &.active {
+    background-image: none;
+    outline: 0;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+  }
+
+  &.disabled,
+  &:disabled,
+  fieldset[disabled] & {
+    cursor: $cursor-disabled;
+    opacity: .65;
+  }
+}
+
+@mixin button-variant($color, $background, $border) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+  &:hover {
+    background: darken($background, 20%);
+    border-color: darken($border, 20%);
+  }
+}
+
+
+.button {
+  @include button-size();
+  @include button-style();
+  &.primary { @include button-variant($white, $blue, $blue); }
+  &.secondary { @include button-variant($white, $black, $black); }
+
+  &.expand { width: 100%; }
 }

@@ -1,11 +1,23 @@
 .layout-homepage {
   height: 100vh;
   display: flex;
-  align-items: center;
   flex-direction: column;
 
-  .is-connected {
+  .content-center {
     margin: auto;
+  }
+
+  .hero {
     text-align: center;
+    padding: 10px 20px;
+  }
+}
+
+.cgu,
+.help {
+  .content {
+    max-width: 40em;
+    padding: 10px 20px;
+    margin: 0 auto 40px;
   }
 }

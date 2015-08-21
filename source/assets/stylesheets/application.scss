@@ -1,12 +1,17 @@
 @charset "UTF-8";
 
-@import "normalize.css/normalize.css";
+@import "normalize-css/normalize";
 
 @import "colors";
 @import "mixins";
+@import "settings";
 
-@import "components/global";
 @import "components/buttons";
+@import "components/card";
+@import "components/forms";
+@import "components/global";
 @import "components/layout";
+@import "components/type";
 
 @import "modules/header";
+@import "modules/footer";

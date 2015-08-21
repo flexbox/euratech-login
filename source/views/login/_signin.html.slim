@@ -1,10 +1,12 @@
-form action="#" class="is-connected"
-  .panel
+form action="/success" class="content-center"
+  .card
     h2 Identification
     label for="login-id" Identifiant
-    input type="text" id="login-id"
+    input type="text" id="login-id" autofocus="" required="" placeholder="wifi_1nv3ce"
 
     label for="login-password" Mot de passe
-    input type="password" id="login-password"
+    input type="password" id="login-password" required="" placeholder="•••••••"
 
-    button.button type="submit" Connexion
+    button.button.primary.expand type="submit" Connexion
+
+  = link_to 'Besoin d’aide ?', '/help'

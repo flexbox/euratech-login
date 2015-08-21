@@ -11,6 +11,6 @@ html lang="#{data.settings.site.i18n}"
     .layout-homepage
       = partial 'views/commons/header'
       == yield
-
+      = partial 'views/commons/footer'
     = javascript_include_tag 'application'
     = yield_content :javascripts

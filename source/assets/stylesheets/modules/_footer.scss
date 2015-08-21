@@ -1,0 +1,16 @@
+.m-footer {
+  margin-top: 20px;
+  border-top: 1px solid $gray;
+  width: 100%;
+
+  a {
+    font-size: 14px;
+    color: $gray;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    &:hover {
+      color: $gray-dark;
+    }
+  }
+}

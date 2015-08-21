@@ -1,0 +1,11 @@
+.card {
+  border-radius: $global-radius;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  background-color: $white;
+
+  max-width: 300px;
+  &.large {
+    max-width: 500px;
+  }
+}
