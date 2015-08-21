@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/flexbox/euratech-wifi/success</loc>
+    <loc>https://github.com/flexbox/euratech-wifi/success.html</loc>
   </url>
   <url>
     <loc>https://github.com/flexbox/euratech-wifi</loc>
   </url>
   <url>
-    <loc>https://github.com/flexbox/euratech-wifi/help</loc>
+    <loc>https://github.com/flexbox/euratech-wifi/help.html</loc>
   </url>
   <url>
-    <loc>https://github.com/flexbox/euratech-wifi/cgu</loc>
+    <loc>https://github.com/flexbox/euratech-wifi/cgu.html</loc>
   </url>
 </urlset>
