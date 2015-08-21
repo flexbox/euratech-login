@@ -1,71 +1,12 @@
-# codeless
+# Euratechnologies wifi
 
-Static site starter template for [Middleman](http://middlemanapp.com) based on [slimmer](https://github.com/polymatt/slimmer) with Ruby on Rails architecture.
+Refactor the login page to the wifi connection based on [codeless template](https://github.com/flexbox/codeless)
 
-###### Preprocessing
-- [Slim](http://slim-lang.com) *[for html]*
-- [Sass](http://sass-lang.com) *[for css]*
-- [CoffeeScript](http://coffeescript.org) *[for js]*
+- mobile friendly
+- Accessible with keyboard
+- Delight the eye without destrincting the mind
 
-###### Tools
-- [Bower](http://bower.io) *[js package management]*
-- [GitHub Pages](http://pages.github.com) *[deployment/hosting]*
-- [Middleman Autoprefixer](https://github.com/middleman/middleman-autoprefixer) *[Automatically add vendor prefixes to CSS rules]*
-- [Middleman Favicon Maker](https://github.com/follmann/middleman-favicon-maker) *[Generate favicon files in various sizes]*
-- [Middleman Live Reload](https://github.com/middleman/middleman-livereload) *[Reloads the page when files change]*
-
-
-## Getting Started
-
-Install Middleman
-
-    $ gem install middleman
-
-Install codeless template
-
-    $ mkdir ~/.middleman #if it doesn't exist yet
-    $ cd ~/.middleman
-    $ git clone git@github.com:flexbox/codeless.git codeless
-
-Start your project
-
-    $ cd ~/path/to/your/project
-    $ middleman init awesome-project --template=codeless
-
-### Bower
-
-Find and install the packages you need…
-
-    $ bower search package-name
-    $ bower install package-name -S
-
-Include the assets in your js/css files (paths relative to the root `bower_component` directory )
-
-###### css files
-
-    @import 'folder/file'
-
-###### js files
-
-    #=require 'folder/file'
-
-
-### Architecture
-
-Stylesheets, fonts, images, and JavaScript files go in the `/source/assets/` directory.
-Vendor stylesheets and JavaScripts should go in each of their `/bower_components/` directories.
-
-    codeless/
-    ├── bower_components/
-    │    └── ...
-    ├── source/
-    │   ├── assets/
-    │   └── ...
-
-### Deploying to GitHub Pages
-
-    middleman build
-    middleman publish
+![centered login page with flexbox](http://recordit.co/6NkGL0Cwcw.gif)
 
 ## Contributing
 
